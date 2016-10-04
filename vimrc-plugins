@@ -21,11 +21,6 @@ Plug 'guns/vim-sexp'
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
 " Plug 'neovim/node-host'
 " Plug 'snoe/nvim-parinfer.js'
-
-"" Haskell support
-Plug 'neovimhaskell/haskell-vim'
-Plug 'Twinside/vim-haskellConceal'
-
 " Elm support
 Plug 'lambdatoast/elm.vim'
 
@@ -42,5 +37,5 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'genutils'
 "Plug 'Rykka/riv.vim'
-
+Plug 'moll/vim-node'
 call plug#end()

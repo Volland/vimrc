@@ -51,7 +51,6 @@ set smarttab
 set expandtab
 set autoindent
 set laststatus=2
-set shellxescape="&|<>()@^
 "set cryptmethod=blowfish
 
 " don't use swapfiles. Use git instead
@@ -73,8 +72,6 @@ set number
 " highlight tabs and trailing spaces
 set list listchars=tab:››,eol:¬,trail:·
 
-" GPG Default Receipients
-let g:GPGDefaultRecipients=["kolja"]
 
 " Set to auto read when a file is changed from the outside
 set autoread
